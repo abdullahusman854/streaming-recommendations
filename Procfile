@@ -1,0 +1,1 @@
+web: gunicorn streaming_recommendations.wsgi --log-file -
