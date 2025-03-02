@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-_3*f5#(@#ht&%2i0i(%^3i-0rp$ijq6vqk20o@s7jz(mjas!p+'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -49,8 +49,8 @@ INSTALLED_APPS = [
 # IPTV Server settings
 IPTV_SETTINGS = {
     'BASE_URL': 'https://slytv.uk/player_api.php',
-    'USERNAME': 'sNQeBBH2',
-    'PASSWORD': 'eBMth3r',
+    'USERNAME': '',
+    'PASSWORD': '',
 }
 
 MIDDLEWARE = [

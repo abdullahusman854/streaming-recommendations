@@ -14,8 +14,8 @@ class RecommendationsView(APIView):
         
         # Initialize Supabase client
         supabase: Client = create_client(
-            'https://irhlugxwnyhkojfuvvlo.supabase.co',
-            'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlyaGx1Z3h3bnloa29qZnV2dmxvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjYzNDAyMDksImV4cCI6MjA0MTkxNjIwOX0.Ng17PkHVbKw5AK10YA4caE9-LnJGhBEuiKYNlcA2Nlk'
+            '',
+            ''
         )
         
         # Get user's watch history
